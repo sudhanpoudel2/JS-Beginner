@@ -32,4 +32,34 @@ let myFunction = function() {
 }
 
 console.log(typeof myFunction);
-console.log("hello world!");
+
+//++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++//
+
+// Type of Memory
+//  Stack(Premetive) and Heap(Non Premetive)
+
+// Stack example
+
+let yourName = "Sudhan";
+let anotherName = yourName;
+yourName = "Monster";
+
+console.log(yourName);
+console.log(anotherName);
+
+//Heap Example
+
+let userOne = {
+    name : "Sudhan Pooudel",
+    email : "sudhanpoudel2@gmail.com"
+}
+
+/*let userTwo = {
+    name :"Fighter"
+}*/
+
+let userTwo = userOne;
+userTwo.name = "Fighter";
+
+console.log(userOne.name);
+console.log(userTwo.name);
