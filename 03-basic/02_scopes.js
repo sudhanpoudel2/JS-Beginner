@@ -24,7 +24,7 @@ function one(){
     // console.log(website); //error
     two();
 }
-// one();
+ one();
 
 if(true){
     const username = "ABC";
