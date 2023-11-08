@@ -5,21 +5,21 @@ const user = {
 
     welcomeMessage : function() {
         console.log(`${this.username}, Welcome to Website`);
-        // console.log(this);
+        console.log(this);
     }
 }
 
-// user.welcomeMessage();
-// user.username = "Harry";
-// user.welcomeMessage();
+user.welcomeMessage();
+user.username = "Harry";
+user.welcomeMessage();
 
-// console.log(this);
+console.log(this);
 
-// function chiya(){
-//     const chai = "Black";
-//     console.log(this.chai);
-// }
-// chiya();
+function chiya(){
+    const chai = "Black";
+    console.log(this.chai);
+}
+chiya();
 
 // const dari = function(){
 //     const chai = "Black";
@@ -35,4 +35,4 @@ dari();
 const addTwo = (n1 , n2) =>{
     return n1+n2;
 }
-console.log(addTwo(8,20));
+console.log();
